@@ -112,6 +112,7 @@ define(['managerAPI', 'https://cdn.jsdelivr.net/gh/minnojs/minno-datapipe@1.*/da
 	                    { 
 	                        conditions:[{compare: 'global.choose.questions.choice.response', to: 'hispanic'}],
 	                        data:[{inherit:'hispanic'}]
+				uploading: uploading_task({header: 'just a moment', body:'Please wait, sending data... '})
 	                    },
 	                    { 
 	                        conditions:[{compare: 'global.choose.questions.choice.response', to: 'weight'}],
